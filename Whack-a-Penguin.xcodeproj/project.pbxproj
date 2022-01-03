@@ -10,6 +10,9 @@
 		36C8770D27822D7100BA161C /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C8770C27822D7100BA161C /* WhackSlot.swift */; };
 		36C8770F2783008600BA161C /* SmokeParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36C8770E2783008600BA161C /* SmokeParticle.sks */; };
 		36C8771527830B1A00BA161C /* MudLike.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36C8771427830B1A00BA161C /* MudLike.sks */; };
+		36C8771A2783319200BA161C /* scr002.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C877172783319100BA161C /* scr002.png */; };
+		36C8771B2783319200BA161C /* scr003.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C877182783319200BA161C /* scr003.png */; };
+		36C8771C2783319200BA161C /* scr001.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C877192783319200BA161C /* scr001.png */; };
 		36E24D3B2780FD0900C29A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E24D3A2780FD0900C29A74 /* AppDelegate.swift */; };
 		36E24D3D2780FD0900C29A74 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36E24D3C2780FD0900C29A74 /* GameScene.sks */; };
 		36E24D412780FD0900C29A74 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E24D402780FD0900C29A74 /* GameScene.swift */; };
@@ -23,6 +26,9 @@
 		36C8770C27822D7100BA161C /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		36C8770E2783008600BA161C /* SmokeParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SmokeParticle.sks; sourceTree = "<group>"; };
 		36C8771427830B1A00BA161C /* MudLike.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MudLike.sks; sourceTree = "<group>"; };
+		36C877172783319100BA161C /* scr002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr002.png; sourceTree = "<group>"; };
+		36C877182783319200BA161C /* scr003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr003.png; sourceTree = "<group>"; };
+		36C877192783319200BA161C /* scr001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scr001.png; sourceTree = "<group>"; };
 		36E24D372780FD0900C29A74 /* Whack-a-Penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Whack-a-Penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E24D3A2780FD0900C29A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36E24D3C2780FD0900C29A74 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -46,9 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36C877162783111500BA161C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				36C877192783319200BA161C /* scr001.png */,
+				36C877172783319100BA161C /* scr002.png */,
+				36C877182783319200BA161C /* scr003.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		36E24D2E2780FD0900C29A74 = {
 			isa = PBXGroup;
 			children = (
+				36C877162783111500BA161C /* Screenshots */,
 				36E24D392780FD0900C29A74 /* Whack-a-Penguin */,
 				36E24D382780FD0900C29A74 /* Products */,
 			);
@@ -139,11 +156,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C8771C2783319200BA161C /* scr001.png in Resources */,
+				36C8771B2783319200BA161C /* scr003.png in Resources */,
 				36E24D462780FD0900C29A74 /* Main.storyboard in Resources */,
 				36C8771527830B1A00BA161C /* MudLike.sks in Resources */,
 				36E24D3D2780FD0900C29A74 /* GameScene.sks in Resources */,
 				36C8770F2783008600BA161C /* SmokeParticle.sks in Resources */,
 				36E24D482780FD1200C29A74 /* Assets.xcassets in Resources */,
+				36C8771A2783319200BA161C /* scr002.png in Resources */,
 				36E24D4B2780FD1200C29A74 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
